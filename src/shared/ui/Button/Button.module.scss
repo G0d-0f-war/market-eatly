@@ -1,0 +1,30 @@
+.primal {
+  border: 1px solid #6c5fbc;
+  border-radius: 18px;
+  display: inline-block;
+  cursor: pointer;
+  .text {
+    font-family: 'Inter', sans-serif;
+    padding: 17px 26px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    color: #6c5fbc;
+  }
+}
+.button {
+  background-color: #6c5fbc;
+  border-radius: 18px;
+  display: inline-block;
+  cursor: pointer;
+  .text {
+    font-family: 'Inter', sans-serif;
+    padding: 17px 26px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    color: #fff;
+  }
+}

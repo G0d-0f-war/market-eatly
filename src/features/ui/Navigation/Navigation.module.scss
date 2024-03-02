@@ -1,0 +1,17 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  gap: 53px;
+  .link {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #606060;
+  }
+}
