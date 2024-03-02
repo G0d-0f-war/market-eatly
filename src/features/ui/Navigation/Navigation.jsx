@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Navigation.module.scss';
-
+import { Link } from 'react-router-dom';
 function Navigation(props) {
   const links = ['Menu', 'Blog', 'Pricing', 'Contact'];
   return (
@@ -9,9 +9,9 @@ function Navigation(props) {
         <ul className={styles.menu}>
           {links.map((element, i) => (
             <li key={i} className={styles.item}>
-              <a href="#" className={styles.link}>
+              <Link to="/menu" className={styles.link}>
                 {element}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>

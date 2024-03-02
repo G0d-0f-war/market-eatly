@@ -1,0 +1,12 @@
+.banner { 
+    width: 758px;
+    height: 251px;
+    background-color: #7C6FCD;
+    position: relative;
+    
+    .img {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+}
