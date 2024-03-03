@@ -1,0 +1,120 @@
+.statistics {
+  margin-top: 85px;
+  width: 100%;
+  height: 220px;
+  background: #5c4eae;
+  .items {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 57px;
+    .first {
+      position: relative;
+      &__title {
+        font-family: 'Public Sans';
+        font-size: 43px;
+        font-weight: 700;
+        line-height: 54px;
+        color: #ffffff;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+      &__text {
+        font-family: 'Inter';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 22px;
+        text-align: center;
+        color: #c5bfed;
+        width: 160px;
+      }
+      &:after {
+        content: '';
+        position: absolute;
+        height: 123px;
+        width: 1px;
+        background-color: #c5c5c5;
+        bottom: 0;
+        right: -100%;
+        opacity: 0.2;
+      }
+    }
+    .second {
+      position: relative;
+      &__title {
+        font-family: 'Public Sans';
+        font-size: 43px;
+        font-weight: 700;
+        line-height: 54px;
+        color: #ffffff;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+      &__text {
+        font-family: 'Inter';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 22px;
+        text-align: center;
+        color: #c5bfed;
+        width: 200px;
+      }
+      &:after {
+        content: '';
+        position: absolute;
+        height: 123px;
+        width: 1px;
+        background-color: #c5c5c5;
+        bottom: 0;
+        right: -100%;
+        opacity: 0.2;
+      }
+    }
+    .third {
+      &__title {
+        font-family: 'Public Sans';
+        font-size: 43px;
+        font-weight: 700;
+        line-height: 54px;
+        color: #ffffff;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+      &__text {
+        font-family: 'Inter';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 22px;
+        text-align: center;
+        color: #c5bfed;
+        width: 210px;
+      }
+    }
+  }
+
+  .line {
+    position: relative;
+    &__first {
+      position: absolute;
+      bottom: -58px;
+      left: -10px;
+    }
+    &__second {
+      position: absolute;
+      bottom: -58px;
+      left: -10px;
+    }
+  }
+  .wave {
+    position: relative;
+    &__first {
+      position: absolute;
+      right: 0;
+      bottom: -58px;
+    }
+    &__second {
+      position: absolute;
+      right: 0;
+      bottom: -58px;
+    }
+  }
+}
