@@ -1,0 +1,38 @@
+.inputsearch { 
+    
+    input { 
+    width: 757px;
+    background-color: #EDEDED;
+    height: 70px;
+    margin-top: 87px;
+    border-radius: 10px;
+    &:focus { 
+       color: red;
+       padding-left: 91px;
+        color: #AAABBA;
+        font-family: Poppins;
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+    .search:focus::placeholder{ 
+        color: transparent;
+    }
+
+    input::placeholder { 
+        color: #AAABBA;
+        font-family: Poppins;
+        padding-left: 91px;
+        font-size: 20px;
+        line-height: 24px;
+        
+    }
+
+    img { 
+    position: absolute;
+    z-index: 3;
+    margin-top: 104px;
+    margin-left: 20px;
+    }
+    
+}
