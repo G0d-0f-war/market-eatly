@@ -1,0 +1,101 @@
+.hero {
+  margin-top: 120px;
+  width: 100%;
+  overflow: hidden;
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .users {
+    padding-left: 74px;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-align: left;
+    position: relative;
+    color: #201f1f;
+    opacity: 0.5;
+    &:before {
+      content: '';
+      position: absolute;
+      width: 54px;
+      height: 1px;
+      background-color: #201f1f;
+      left: 0;
+      bottom: 50%;
+      opacity: 0.5;
+    }
+  }
+  .items {
+    width: 50%;
+
+    .title {
+      font-family: 'Poppins';
+      font-size: 75px;
+      font-weight: 600;
+      line-height: 90px;
+      letter-spacing: -3px;
+      text-align: left;
+      color: #201f1f;
+
+      span {
+        color: #6c5fbc;
+      }
+      margin-bottom: 16px;
+    }
+    .text {
+      font-family: 'Inter';
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 28px;
+      letter-spacing: 0px;
+      margin-bottom: 53px;
+    }
+    .buttons {
+      display: flex;
+      gap: 18px;
+      margin-bottom: 33px;
+    }
+    .raiting {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      height: 31px;
+    }
+    .stars {
+      display: flex;
+
+      gap: 10px;
+      span {
+        font-family: 'Plus Jakarta Sans';
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        color: #334155;
+        opacity: 0.7;
+      }
+    }
+  }
+  .images {
+    .food {
+      position: relative;
+    }
+    .waves {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+    .lines {
+      position: absolute;
+      bottom: 20px;
+      left: -10px;
+    }
+    .vector {
+      position: absolute;
+      bottom: 60%;
+      right: 33px;
+    }
+  }
+}
