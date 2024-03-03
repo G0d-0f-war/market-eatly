@@ -1,7 +1,8 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 function Logo(props) {
   return (
+    <Link to='/'>
     <svg
       width="112"
       height="43"
@@ -52,6 +53,7 @@ function Logo(props) {
         fill="#6C5FBC"
       />
     </svg>
+    </Link>
   );
 }
 

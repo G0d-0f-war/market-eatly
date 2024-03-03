@@ -11,6 +11,14 @@
     font-weight: 700;
     line-height: 27px;
     color: #6c5fbc;
+    &:hover{ 
+      color: white;
+    }
+  }
+  &:hover{ 
+    background-color: #6c5fbc;
+    transition: all 0.2s ease-out;
+    
   }
 }
 .button {
@@ -26,5 +34,9 @@
     font-weight: 700;
     line-height: 27px;
     color: #fff;
+  }
+  &:hover { 
+    background-color: #9e92ea;
+    transition: all 0.2s ease-out;
   }
 }
