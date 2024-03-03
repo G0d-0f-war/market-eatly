@@ -1,12 +1,39 @@
 .banner { 
     width: 758px;
     height: 251px;
-    background-color: #7C6FCD;
+    background-color: #6C5FBC;
+
     position: relative;
-    
+    border-radius: 19px;
     .img {
         position: absolute;
         left: 0;
         bottom: 0;
     }
+    .title { 
+        color: #F7F8FA;
+        top:31px;
+        left:49px;
+        font-size: 75px;
+        position: absolute;
+        max-width: 350px;
+        font-family: "Poppins";
+        font-weight: 800;
+        p { 
+            color: #7C6FCD;
+            
+        }
+    }
+    .FoodImg { 
+        position: absolute;
+        z-index: 3;
+        left: 410px;
+        top: 50px;
+    }
+    .lines { 
+        right: -55px;
+        position: absolute;
+        top: -30px;
+    }
+
 }
