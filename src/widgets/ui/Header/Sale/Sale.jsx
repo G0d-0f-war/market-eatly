@@ -2,6 +2,8 @@ import SaleWeekend from "../../../../entites/ui/SaleWeekend/SaleWeekend";
 import styles from './Sale.module.scss'
 import Input from "../../../../shared/ui/Inputs/input";
 import ButtonInput from "../../../../features/ui/Navigation/ButtonInputs/buttonInput";
+import SalePanel from "../../../../entites/ui/SaleWeekend/SalePanel/Panel";
+import Button from "../../../../shared/ui/Button/Button";
 export default function Sale () { 
 return ( 
         
@@ -11,9 +13,12 @@ return (
                 <div className={styles.left}>
                     <SaleWeekend />
                     <Input />
-        <ButtonInput />
+                    <ButtonInput />
                     </div>
-                <div className={styles.right}></div>
+                <div className={styles.right}>
+                    <SalePanel />
+                </div>
+
             </div>
         </div>
 
