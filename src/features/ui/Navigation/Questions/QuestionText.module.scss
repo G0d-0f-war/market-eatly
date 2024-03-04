@@ -1,0 +1,32 @@
+.QuestionBlock {
+    margin-top: 140px;
+    .QuestionsText { 
+            position: relative;
+            margin-top: 30px;
+            .QuestionsTextBlock { 
+                display: flex;
+                justify-content: space-around;
+            }
+            
+            .Question { 
+                font-family: Poppins;
+                font-weight: 600;
+                font-size: 23px;
+                line-height: 59px;
+                color: #323142;
+            }
+        
+            .buttonImage { 
+                margin: 0;
+                width: 30px;
+                height: 30px;
+                border-radius: 20px;
+                background-image: url('../../../../app/assets/img/Questions/Plus.svg');
+                
+            }
+            img { 
+                margin-left: 385px;
+            }
+    }
+}
+
