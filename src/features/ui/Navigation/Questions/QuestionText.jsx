@@ -11,21 +11,7 @@ export default function QuestionsText () {
                 <button className={styles.buttonImage}></button>
             </div>
                 <img src={Line} alt="" />
-        </div>
-        <div className={styles.QuestionsText}>
-            <div className={styles.QuestionsTextBlock}>
-                <p className={styles.Question}>How long does delivery take?</p>
-                <button className={styles.buttonImage}></button>
-            </div>
-                <img src={Line} alt="" />
-        </div>
-        <div className={styles.QuestionsText}>
-            <div className={styles.QuestionsTextBlock}>
-                <p className={styles.Question}>How long does delivery take?</p>
-                <button className={styles.buttonImage}></button>
-            </div>
-                <img src={Line} alt="" />
-        </div>        
+        </div>    
         </div>
         </>
     )

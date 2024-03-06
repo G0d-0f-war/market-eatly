@@ -2,6 +2,7 @@ import Sale from "../widgets/ui/Header/Sale/Sale";
 import Header from "../widgets/ui/Header/Header";
 import Questions from "../entites/ui/SaleWeekend/Questions/Questions";
 import QuestionsText from "../features/ui/Navigation/Questions/QuestionText";
+import Footer from "../widgets/ui/Header/Footer/Footer";
 export default function Menu () { 
     return ( 
         <>
@@ -9,6 +10,8 @@ export default function Menu () {
         <Sale />
         <Questions />
         <QuestionsText />
+        <Footer />
+        {/* <FooterImg /> */}
         </>
     )
 };
