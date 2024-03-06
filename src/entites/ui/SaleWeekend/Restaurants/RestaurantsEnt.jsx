@@ -5,7 +5,7 @@ import star from '../../../../app/assets/img/restaurants/Star.svg';
 import Favorites from '../../../../shared/ui/Favorites/Favorites';
 function RestaurantsEnt({ children, ...props }) {
   return (
-    <div className={styles.dishes}>
+    <div className={styles.restaurants}>
       <div className={styles.title}>
         Our Top <span>Restaurants</span>
       </div>
