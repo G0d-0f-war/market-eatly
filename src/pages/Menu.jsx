@@ -7,6 +7,7 @@ export default function Menu() {
     <>
       <Header />
       <Sale />
+      <Questions />
     </>
   );
 }
