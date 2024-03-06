@@ -4,7 +4,7 @@ export default function QuenstionsTextEnt() {
   return (
     <div className={styles.QuestionsBlock}>
       <img src={Lines} alt="" />
-      <div className={styles.Asked}>Frequently Asked</div>
+      <div className={styles.Asked}>Frequently Asked</div>1
       <div className={styles.Questions}>Questions</div>
     </div>
   );
