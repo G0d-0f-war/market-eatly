@@ -1,0 +1,23 @@
+.footerFeatures {
+  width: 100%;
+  color: #eaeaea;
+  .footerBlock {
+    margin-top: 57px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  p {
+    font-family: Inter;
+    color: #999999;
+  }
+  .images {
+    display: flex;
+    gap: 15px;
+
+    button {
+      border-radius: 20px;
+    }
+  }
+}

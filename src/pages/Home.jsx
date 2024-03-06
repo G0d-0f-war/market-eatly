@@ -5,6 +5,7 @@ import Statistics from '../widgets/ui/Header/Statistics/Statistics';
 import Quality from '../widgets/ui/Header/Quality/Quality';
 import Restaurants from '../widgets/ui/Header/Restaurants/Restaurants';
 import Dishes from '../widgets/ui/Header/Dishes/Dishes';
+import Footer from '../widgets/ui/Header/Footer/Footer';
 
 function Home(props) {
   return (
@@ -15,6 +16,7 @@ function Home(props) {
       <Quality />
       <Restaurants />
       <Dishes />
+      <Footer />
     </div>
   );
 }
