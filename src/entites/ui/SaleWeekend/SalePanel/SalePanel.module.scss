@@ -1,84 +1,84 @@
-.SalePanel { 
-    background-color: #FFFFFF;
-    border-radius: 10px;
-    width: 377px;
-    height: 570.27px;
-    box-shadow: 4.061951637268066px 6.769920349121094px 20.30975914001465px 0.6769919991493225px #6C5FBC1F;
+.SalePanel {
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 377px;
+  height: 570.27px;
+  box-shadow: 4.061951637268066px 6.769920349121094px 20.30975914001465px 0.6769919991493225px
+    #6c5fbc1f;
 
-    .foodbutton { 
-        width: 67px;
-        height: 96px;
-        font-weight: 500;
-        font-size: 11px;
-        line-height: 17px;
-        border-radius: 10px;
-        background-color: #FFDE8A;
-        font-family: Poppins;
-        color: #D69900;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-    }
-    
-    .SalePanelOne { 
-        padding: 24px;
-    }
-    .category { 
-        color: #323142;
-        font-family: Poppins;
-        font-weight: 700;
-        font-size: 17px;
-        line-height: 20px;
-        margin-bottom: 17px;
-    }
-    .sortBy { 
-        margin-top: 25px;
-        font-family: Poppins;
-        font-weight: 600;
-        font-size: 21px;
-        line-height: 28px;
-        color: #323142;
-    }
-    .allSortBy { 
-        display: flex;
-        justify-content: space-between;
-    }
-    .sort { 
-        color: #ACADB9;
-        font-family: Poppins;
-        font-weight: 500;
-        font-size: 15px;
-        line-height: 28px;
-        width: 105px;
-        margin-top: 13px;
-    }
-    .sortbyDelivery {
-        height: 50px;
-        margin-right: 15px;
-        font-family: Poppins;
-        font-weight: 500;
-        font-size: 15px;
-        line-height: 28px;
-        color: #6C5FBC;
-        border: none;
-    }
-    .buttonApply { 
-        margin-top: 30px;
-        border-radius: 20px;
-        width: 310px;
-        background: #6C5FBC;
-        height: 60px;
-        color: white;
-        font-family: Poppins;
-        font-weight: 600;
-        font-size: 13px;
-        line-height: 20px;
-        &:hover { 
-    background-color: #9e92ea;
-    transition: all 0.2s ease-out;
+  .foodbutton {
+    width: 67px;
+    height: 96px;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 17px;
+    border-radius: 10px;
+    background-color: #ffde8a;
+    font-family: Poppins;
+    color: #d69900;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
   }
+
+  .SalePanelOne {
+    padding: 24px;
+  }
+  .category {
+    color: #323142;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    margin-bottom: 17px;
+  }
+  .sortBy {
+    margin-top: 25px;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 28px;
+    color: #323142;
+  }
+  .allSortBy {
+    display: flex;
+    justify-content: space-between;
+  }
+  .sort {
+    color: #acadb9;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 28px;
+    width: 105px;
+    margin-top: 13px;
+  }
+  .sortbyDelivery {
+    height: 50px;
+    margin-right: 15px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 28px;
+    color: #6c5fbc;
+    border: none;
+  }
+  .buttonApply {
+    margin-top: 30px;
+    border-radius: 20px;
+    width: 100%;
+    background: #6c5fbc;
+    height: 60px;
+    color: white;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    &:hover {
+      background-color: #9e92ea;
+      transition: all 0.2s ease-out;
     }
-    
-} 
+  }
+}
