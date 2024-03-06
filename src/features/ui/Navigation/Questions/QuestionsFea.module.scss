@@ -6,6 +6,7 @@
             .QuestionsTextBlock { 
                 display: flex;
                 justify-content: space-around;
+                align-items: center;
             }
             
             .Question { 
@@ -17,6 +18,7 @@
             }
         
             .buttonImage { 
+
                 margin: 0;
                 width: 30px;
                 height: 30px;
@@ -26,6 +28,7 @@
             }
             img { 
                 margin-left: 385px;
+                
             }
     }
 }
