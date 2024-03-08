@@ -16,8 +16,12 @@ function Header(props) {
             <Button>Sign Up</Button>
           </div>
         </div>
+      <div className={styles.line}>
+
+      </div>
       </div>
     </header>
+
   );
 }
 
