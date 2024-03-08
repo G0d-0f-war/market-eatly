@@ -15,8 +15,8 @@ function Home(props) {
       <Hero />
       <Statistics />
       <Quality />
-      <Restaurants />
-      <Dishes />
+      <Restaurants variant={1} />
+      <Dishes variant={1} />
       <Control />
       <Footer />
     </div>
