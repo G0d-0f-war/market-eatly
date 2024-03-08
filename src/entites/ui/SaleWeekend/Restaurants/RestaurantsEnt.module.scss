@@ -1,6 +1,32 @@
 .restaurants {
   width: 100%;
   position: relative;
+  margin-top: 145px;
+  
+
+
+  .MenuRestaurants { 
+    margin-bottom: 45px;
+    .wrapper1 { 
+      height: 45px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+
+
+  .primal { 
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 25px;
+    color: #323142;
+    margin-bottom: 75px;
+    span {
+      color: #6c5fbc;
+    }
+  }
   .title {
     font-family: Poppins;
     font-size: 45px;
@@ -12,6 +38,7 @@
     span {
       color: #6c5fbc;
     }
+    
   }
   .block {
     width: 33%;

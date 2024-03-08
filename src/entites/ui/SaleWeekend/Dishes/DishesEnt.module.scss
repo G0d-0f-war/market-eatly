@@ -1,6 +1,7 @@
 .dishes {
   width: 100%;
   position: relative;
+
   .title {
     font-family: Poppins;
     font-size: 45px;
@@ -11,6 +12,30 @@
     span {
       color: #6c5fbc;
     }
+  }
+
+
+  .primal { 
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 25px;
+    color: #323142;
+    margin-bottom: 75px;
+    span {
+      color: #6c5fbc;
+    }
+  }
+
+
+
+  .MenuDishes { 
+    margin-bottom: 5px;
+    .wrapper2 {
+      display: flex;
+      justify-content: space-between;
+
+      }
   }
   .block {
     width: 33%;

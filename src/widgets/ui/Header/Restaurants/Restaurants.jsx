@@ -1,10 +1,10 @@
 import React from 'react';
 import RestaurantsEnt from '../../../../entites/ui/SaleWeekend/Restaurants/RestaurantsEnt';
 import styles from './Restaurants.module.scss';
-function Restaurants(props) {
+function Restaurants({ primal,variant}) {
   return (
     <div className="container">
-      <RestaurantsEnt />
+      <RestaurantsEnt primal={primal} variant={variant}/>
       <div className={styles.line}></div>
     </div>
   );

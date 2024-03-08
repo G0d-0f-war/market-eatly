@@ -1,10 +1,10 @@
 import React from 'react';
 import DishesEnt from '../../../../entites/ui/SaleWeekend/Dishes/DishesEnt';
 import styles from './Dishes.module.scss';
-function Dishes(props) {
+function Dishes({primal, variant}) {
   return (
     <div className="container">
-      <DishesEnt />
+      <DishesEnt variant={variant} primal={primal}/>
       <div className={styles.line}></div>
     </div>
   );
