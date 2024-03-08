@@ -1,0 +1,82 @@
+.dashboard {
+  width: 534px;
+  height: 466.46px;
+  border-radius: 25.13px;
+  background-color: #fff;
+  .wrapper {
+    padding: 40px 37px 45px 40px;
+    .main {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 45px;
+      .title {
+        font-family: Manrope;
+        font-size: 28px;
+        font-weight: 800;
+        text-align: left;
+        color: #1a202c;
+      }
+      .select {
+        width: 175px;
+        height: 53px;
+        background-color: #fafafa;
+        border-radius: 12.56px;
+        option {
+          font-family: Manrope;
+          font-size: 29px;
+          font-weight: 600;
+        }
+      }
+    }
+    .block {
+      width: 458px;
+      height: 135px;
+      border: 1.5px solid #edf2f7;
+      border-radius: 18.85px;
+      .obertka {
+        padding: 25px;
+        .items {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding-bottom: 20px;
+          .content {
+            display: flex;
+            align-items: center;
+            gap: 18px;
+            .information {
+              &__title {
+                font-family: Manrope;
+                font-size: 19px;
+                font-weight: 800;
+                text-align: left;
+                color: #1a202c;
+                padding-bottom: 3px;
+              }
+              &__text {
+                font-family: Manrope;
+                font-size: 16px;
+                font-weight: 500;
+                text-align: left;
+                color: #a0aec0;
+              }
+            }
+          }
+          .price {
+            font-family: Manrope;
+            font-size: 22px;
+            font-weight: 800;
+            text-align: right;
+            color: #1a202c;
+          }
+        }
+        .value {
+          width: 408.35px;
+          height: 9.42px;
+          background-color: #6c5fbc;
+          border-radius: 78.53px;
+        }
+      }
+    }
+  }
+}
