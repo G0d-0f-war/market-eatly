@@ -18,6 +18,7 @@ function Home(props) {
       <Restaurants />
       <Dishes />
       <Control />
+      1
       <Footer />
     </div>
   );
