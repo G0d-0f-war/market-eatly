@@ -11,4 +11,11 @@
     display: flex;
     gap: 9px;
   }
+  .line {
+    width: 100%;
+    max-width: 1246px;
+    height: 1px;
+    background-color: rgba(203, 203, 203, 1);
+    margin-top: 24px;
+  }
 }
