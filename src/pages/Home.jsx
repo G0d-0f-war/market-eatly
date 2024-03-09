@@ -7,6 +7,8 @@ import Restaurants from '../widgets/ui/Header/Restaurants/Restaurants';
 import Dishes from '../widgets/ui/Header/Dishes/Dishes';
 import Footer from '../widgets/ui/Header/Footer/Footer';
 import Control from '../widgets/ui/Header/Control/Control';
+import Customer from '../widgets/ui/Header/Customer/Customer';
+import Discount from '../widgets/ui/Header/Discount/Discount';
 
 function Home(props) {
   return (
@@ -18,6 +20,8 @@ function Home(props) {
       <Restaurants variant={1} />
       <Dishes variant={1} />
       <Control />
+      <Customer />
+      <Discount />
       <Footer />
     </div>
   );

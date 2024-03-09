@@ -1,0 +1,51 @@
+.block {
+  width: 528px;
+  height: 346px;
+  background-color: #fff;
+  border-radius: 20.12px;
+  box-shadow: 0px 20.06800651550293px 30.10201072692871px 0px #4646461a;
+
+  .items {
+    padding: 38px 43px;
+    .information {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 32px;
+      .profile {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        .about {
+          .name {
+            font-family: Poppins;
+            font-size: 21px;
+            font-weight: 500;
+            line-height: 31px;
+            letter-spacing: 0px;
+            text-align: left;
+          }
+          .experience {
+            font-family: Quicksand;
+            font-size: 17px;
+            font-weight: 500;
+            line-height: 26px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: #5e5d5d;
+          }
+        }
+      }
+    }
+    .review {
+      padding-bottom: 39px;
+      .text {
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 26px;
+        color: #636363;
+      }
+    }
+  }
+}
