@@ -1,0 +1,36 @@
+.block {
+  width: 1214px;
+  height: 280px;
+  border-radius: 30px;
+  background-color: #6c5fbc;
+  position: relative;
+  margin-bottom: 216px;
+  .items {
+    padding: 37px 0px 61px 66px;
+    position: relative;
+    z-index: 10;
+    .title {
+      font-family: Poppins;
+      font-size: 70px;
+      font-weight: 800;
+      color: #f9f9f9;
+      padding-bottom: 20px;
+    }
+  }
+  .img {
+    position: absolute;
+    right: 72px;
+    bottom: -20%;
+    z-index: 10;
+  }
+  .foods {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .foods1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
