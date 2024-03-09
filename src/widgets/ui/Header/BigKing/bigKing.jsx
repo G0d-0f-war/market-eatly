@@ -2,12 +2,8 @@ import bigKing from '../../../../app/assets/img/bigKing/Image (13).png';
 import star from '../../../../app/assets/img/bigKing/Star.png';
 import styles from './bigKing.module.scss';
 import Favorites from '../../../../shared/ui/Favorites/Favorites';
-import favorites from '../../../../app/assets/img/bigKing/Bookmark.png'
 export default function Bigking () { 
-    
-    
-    
-    
+        
     return ( 
         <div className={styles.block}>
         <div className={styles.image}>

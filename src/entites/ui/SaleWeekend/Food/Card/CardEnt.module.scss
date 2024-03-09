@@ -1,0 +1,87 @@
+.block {
+    width: 33%;
+    max-width: 224.63px;
+    height: 390.36px;
+    border-radius: 30px;
+    background-color: #fff;
+    box-shadow: 5.94564151763916px 71.34769439697266px 35.67384719848633px 0px #e5e5e5b2;
+    .obertka {
+      padding-top: 26px;
+      .items {
+        padding-left: 23px;
+        .elements {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          .wrapper {
+            .price {
+              display: flex;
+              gap: 45px;
+              &__text {
+                font-family: Manrope;
+                font-size: 26px;
+                font-weight: 700;
+                line-height: 40px;
+                letter-spacing: 0px;
+                text-align: left;
+                color: #121826;
+                span {
+                  font-family: Manrope;
+                  font-size: 19px;
+                  font-weight: 700;
+                  line-height: 40px;
+                  letter-spacing: 0px;
+                  text-align: left;
+                  color: #8e97a6;
+                }
+              }
+            }
+            .information {
+              display: flex;
+              gap: 6px;
+              padding-bottom: 13px;
+              .time {
+                font-family: Manrope;
+                font-size: 17px;
+                font-weight: 400;
+                line-height: 23px;
+                color: #8e97a6;
+              }
+              .raiting {
+                display: flex;
+                gap: 6.5px;
+                align-items: center;
+                &__text {
+                  font-family: Manrope;
+                  font-size: 17px;
+                  font-weight: 400;
+                  line-height: 23px;
+                  color: #8e97a6;
+                }
+              }
+            }
+          }
+        }
+        .category {
+          display: inline-block;
+          padding: 3px 8px;
+          background-color: #f7edd0;
+          border-radius: 5.4px;
+          p {
+            font-family: Poppins;
+            font-size: 11px;
+            font-weight: 400;
+            color: #daa31a;
+          }
+        }
+        &__title {
+          font-family: Poppins;
+          font-size: 23px;
+          font-weight: 600;
+          text-align: left;
+          color: #323142;
+          padding-bottom: 1px;
+        }
+      }
+    }
+  }
