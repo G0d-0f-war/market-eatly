@@ -46,8 +46,9 @@ function DishesEnt({ primal, card, variant }) {
           </div>
         </div>
       )}
-
+      <div className={styles.content}>
       {card}
+      </div>
 
       {variant == 1 ? (
         <div className={styles.view}>

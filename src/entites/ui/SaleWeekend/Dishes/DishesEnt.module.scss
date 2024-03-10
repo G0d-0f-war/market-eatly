@@ -1,7 +1,7 @@
 .dishes {
   width: 100%;
   position: relative;
-
+  
   .title {
     font-family: Poppins;
     font-size: 45px;
@@ -36,6 +36,13 @@
       justify-content: space-between;
 
       }
+  }
+  .content { 
+    margin-top: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 20px;
   }
   .block {
     width: 33%;
@@ -142,4 +149,5 @@
       color: #acadb9;
     }
   }
+  
 }
