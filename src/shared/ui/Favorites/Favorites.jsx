@@ -3,7 +3,6 @@ import React from 'react';
 function Favorites({width,height}) {
   return (
     <div >
-
     <svg width={width} height={height} viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
       <circle cx="20.2242" cy="20.2525" r="20.0426" fill="#DBD9EE" />
       <path

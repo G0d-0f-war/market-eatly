@@ -1,9 +1,12 @@
 import styles from './CardEnt.module.scss';
-import food from '../../../../../app/assets/img/dishes/food.png';
 import star from '../../../../ui/../../app/assets/img/dishes/Star.svg'
 export default function CartEnt ({children,dishes, ...props}) { 
-
-    return ( 
+  const supreme = dishes.category === 'Supreme' ? styles.supreme : '';
+  const health = dishes.category === 'Health' ? styles.health : '';
+  const tranding = dishes.category === 'Tranding' ? styles.tranding: '';
+  const hot = dishes.category === 'Hot' ? styles.hot: "";
+  const fish = dishes.category === 'Fish' ? styles.fish: '';
+  return ( 
     
     <div className={styles.block}>
         <div className={styles.obertka}>
@@ -11,7 +14,7 @@ export default function CartEnt ({children,dishes, ...props}) {
             <img src={dishes.imgUrl} width='205' height='210' alt="" />
           </div>
           <div className={styles.items}>
-            <div className={styles.category}>
+            <div className={`${supreme} ${health} ${tranding} ${hot} ${fish}`}>
               <p>{dishes.category}</p>
             </div>
             <div className={styles.items__title}>{dishes.title}</div>

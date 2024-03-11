@@ -38,6 +38,7 @@
   .view {
     position: absolute;
     right: 0;
+    bottom: -85px;
     &__items {
       display: flex;
       align-items: center;
@@ -52,5 +53,10 @@
       text-align: left;
       color: #acadb9;
     }
+  }
+  .content { 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
   }
 }

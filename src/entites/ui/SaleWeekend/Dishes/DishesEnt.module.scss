@@ -134,10 +134,12 @@
   .view {
     position: absolute;
     right: 0;
+    bottom: -85px;
     &__items {
       display: flex;
       align-items: center;
       gap: 20px;
+      
     }
     a {
       font-family: Poppins;
