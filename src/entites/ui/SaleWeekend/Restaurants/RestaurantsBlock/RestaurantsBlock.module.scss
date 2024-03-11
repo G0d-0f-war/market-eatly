@@ -5,6 +5,12 @@
   border-radius: 30px;
   background-color: #fff;
   box-shadow: 5.94564151763916px 71.34769439697266px 35.67384719848633px 0px #e5e5e5b2;
+
+  .image { 
+    img { 
+      border-radius: 30px 30px 0 0;
+    }
+  }
   .items {
     padding-left: 32px;
     padding-top: 10px;
@@ -16,7 +22,7 @@
         padding-right: 26px;
       }
     }
-    .category {
+    .health {
       display: inline-block;
       padding: 3px 8px;
       background-color: #f7edd0;
@@ -29,6 +35,36 @@
         letter-spacing: 0px;
         text-align: left;
         color: #daa31a;
+      }
+    }
+    .tranding {
+      display: inline-block;
+      padding: 3px 8px;
+      background-color: rgba(247, 197, 186, 1);
+      border-radius: 5.4px;
+      p {
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: rgba(251, 71, 29, 1);
+      }
+    }
+    .supreme {
+      display: inline-block;
+      padding: 3px 8px;
+      background-color: rgb(163, 234, 191);
+      border-radius: 5.4px;
+      p {
+        font-family: Poppins;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0;
+        font-size: 13px;
+        text-align: left;
+        color: rgba(48, 157, 91, 1);
       }
     }
     &__title {

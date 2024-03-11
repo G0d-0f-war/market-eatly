@@ -14,12 +14,16 @@ function Dishes({ primal, variant }) {
 
   return (
     <div className="container">
-      <DishesEnt
+      <DishesEnt 
         card={
-          dishes.map((items) => 
-          <CardEnt dishes={items}>
-            <AddCartButton />
-          </CardEnt>
+          dishes.map((items,index) =>
+          {
+          if(index < 5) {
+            return <CardEnt dishes={items} key={items.id}>
+                  <AddCartButton />
+                  </CardEnt>
+          }
+          } 
           )
         }
         variant={variant}

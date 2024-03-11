@@ -45,7 +45,10 @@ function RestaurantsEnt({ children, primal, variant, block, ...props }) {
         </div>
       )}
 
+      <div className={styles.content}>
+
       {block}
+      </div>
 
       {variant == 1 ? (
         <div className={styles.view}>

@@ -62,16 +62,64 @@
             }
           }
         }
-        .category {
+        .supreme {
+          display: inline-block;
+          padding: 3px 8px;
+          background-color: rgb(163, 234, 191);
+          border-radius: 5.4px;
+          p {
+            font-family: Poppins;
+            font-size: 13px;
+            font-weight: 400;
+            color: rgba(48, 157, 91, 1);
+          }
+        }
+        .health {
           display: inline-block;
           padding: 3px 8px;
           background-color: #f7edd0;
           border-radius: 5.4px;
           p {
             font-family: Poppins;
-            font-size: 11px;
+            font-size: 13px;
             font-weight: 400;
             color: #daa31a;
+          }
+        }
+        .tranding {
+          display: inline-block;
+          padding: 3px 8px;
+          background-color: rgba(247, 197, 186, 1);
+          border-radius: 5.4px;
+          p {
+            font-family: Poppins;
+            font-size: 13px;
+            font-weight: 400;
+            color: rgba(251, 71, 29, 1);
+          }
+        }
+        .hot {
+          display: inline-block;
+          padding: 3px 8px;
+          background-color: #e88484;
+          border-radius: 5.4px;
+          p {
+            font-family: Poppins;
+            font-size: 13px;
+            font-weight: 400;
+            color: #ff0000;
+          }
+        }
+        .fish {
+          display: inline-block;
+          padding: 3px 8px;
+          background-color: #9ca1d9;
+          border-radius: 5.4px;
+          p {
+            font-family: Poppins;
+            font-size: 13px;
+            font-weight: 400;
+            color: #8959d1;
           }
         }
         &__title {
