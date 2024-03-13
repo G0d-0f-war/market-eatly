@@ -1,57 +1,58 @@
-.block { 
-    background-color: white;
-    width: 1238px;
-    height: 500px;
-    border-radius: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 7.571857929229736px 90.86228942871094px 45.43114471435547px 0px rgba(229, 229, 229, 0.7);
-    margin-top: 40px;
-    .items { 
-        margin-top: 30px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding-right: 35px;
-        .items__title { 
-            color: #323142;
-            font-family: Poppins;
-            font-weight: 600;
-            font-size: 40px;
-            line-height: 53px;
-            padding-left: 46px;
-        }
+.block {
+  background-color: white;
+  width: 1238px;
+  height: 500px;
+  border-radius: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 7.571857929229736px 90.86228942871094px 45.43114471435547px 0px
+    rgba(229, 229, 229, 0.7);
+  margin-top: 40px;
+  .items {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 35px;
+    .items__title {
+      color: #323142;
+      font-family: Poppins;
+      font-weight: 600;
+      font-size: 40px;
+      line-height: 53px;
+      padding-left: 46px;
     }
-    .image{ 
-        img{ 
-            width: 1238px;
-            height: 378px;
-        }
-        
+  }
+  .image {
+    img {
+      width: 1238px;
+      height: 378px;
     }
-    .information { 
-        display: flex;
-        gap: 14px;
-        margin-right: 140px;
-        .time,.raiting__text { 
-            color: #8E97A6;
-            font-weight: 400;
-            font-size: 27px;
-            line-height: 35px;
-        }
+  }
+  .information {
+    display: flex;
+    gap: 14px;
+    margin-right: 140px;
+    .time,
+    .raiting__text {
+      color: #8e97a6;
+      font-weight: 400;
+      font-size: 27px;
+      line-height: 35px;
     }
-    .raiting { 
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        gap: 5px;
-    }
-    .raiting__text { 
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-    .favorite { 
-        background-color: transparent;
-    }
+  }
+  .raiting {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+  }
+  .raiting__text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .favorite {
+    background-color: transparent;
+  }
 }
