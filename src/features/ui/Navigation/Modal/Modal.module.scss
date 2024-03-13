@@ -12,14 +12,95 @@
     .active { 
         opacity: 1;
     }
-
+    
     &__content{ 
-        padding: 20px;
+        box-shadow: 35px 25px 38px 0px rgba(0,0,0,0.1);
+        padding-top: 80px;
+        padding-left: 33px;
         border-radius: 12px;
-        background-color:rgb(70, 151, 209);
+        background-color:rgba(255, 255, 255, 1);
         margin-left: 800px;
         margin-top: 100px;
-        width: 300px;
-        height: 300px;
+        width: 450px;
+        height: 655px;
+        .button { 
+            display: flex;
+            gap: 10px;
+            button { 
+                border: none;
+                background: transparent;
+                width: 183px;
+                height: 60px;
+                border-radius: 13px;
+                background-color: rgba(245, 245, 245, 1);
+                margin-bottom: 10px;
+            }
+        }
+        .OR { 
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            margin-right: 40px;
+            font-family: Poppins;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            color: rgba(0, 90, 100, 0.35);
+        }
+
+        .input{ 
+            background-color: rgba(245, 245, 245, 1);
+            border-radius: 10px;
+            width: 382px;
+            height: 60px;
+            padding: 20px;
+            margin-bottom: 10px;
+            font-family: Poppins;
+            font-weight: 600;
+            font-size: 17px;
+            line-height: 25px;
+            color: rgba(194, 195, 203, 1);
+            
+            
+        }
+        .input::placeholder { 
+            color: rgba(194, 195, 203, 1);
+            font-family: Poppins;
+            font-weight: 600;
+            font-size: 17px;
+            line-height: 25px;
+        }
+        .signUp { 
+            background: rgba(108, 95, 188, 1);
+            width: 382px;
+            height: 75px;
+            border-radius: 15px;
+            color: rgba(243, 245, 246, 1);
+            font-family: Poppins;
+            font-weight: 600;
+            font-size: 17px;
+            line-height: 25px;
+            margin-top: 30px;
+            &:hover {
+                background-color: rgb(107, 98, 162);
+            }
+        }
+        .text { 
+            font-family: Poppins;
+            font-weight: 600;
+            font-size: 17px;
+            line-height: 25px;
+            color: rgba(194, 195, 203, 1);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 40px;
+            margin-top: 40px;
+            span { 
+                color: rgba(108, 95, 188, 1);
+                margin-left: 5px;
+            }
+        }
     }
 }
