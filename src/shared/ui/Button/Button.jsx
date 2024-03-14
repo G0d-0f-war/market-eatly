@@ -1,14 +1,11 @@
 import React from 'react';
 import styles from './Button.module.scss';
 
-function Button({ children, primal, ...props }) {
-  
+function Button({ children, primal, width, ...props }) {
   return (
-    <div >
-      <div className={primal == 'primal' ? styles.primal : styles.button}>
-        <div className={styles.text}>{children}</div>
-      </div>
-    </div>
+    <button style={{ width: width }} {...props} className={primal ? styles.primal : styles.button}>
+      <p className={styles.text}>{children}</p>
+    </button>
   );
 }
 

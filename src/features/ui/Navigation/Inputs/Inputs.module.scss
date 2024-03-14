@@ -13,6 +13,35 @@
       line-height: 24px;
     }
   }
+  .reg {
+    background-color: rgba(245, 245, 245, 1);
+    border-radius: 10px;
+    width: 382px;
+    height: 60px;
+    padding: 20px;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 17px;
+    color: rgba(194, 195, 203, 1);
+    &:focus {
+      border-color: #6c5fbc;
+      padding-left: 25px;
+      color: #aaabba;
+      font-family: Poppins;
+      font-size: 20px;
+      line-height: 24px;
+    }
+    &::placeholder {
+      padding-left: 15px;
+      color: rgba(194, 195, 203, 1);
+      font-family: Poppins;
+      font-weight: 600;
+      font-size: 17px;
+    }
+    &:focus::placeholder {
+      color: transparent;
+    }
+  }
   .search:focus::placeholder {
     color: transparent;
   }
