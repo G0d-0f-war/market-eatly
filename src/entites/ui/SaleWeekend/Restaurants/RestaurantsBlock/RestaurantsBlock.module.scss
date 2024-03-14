@@ -67,6 +67,18 @@
         color: rgba(48, 157, 91, 1);
       }
     }
+    .hot {
+          display: inline-block;
+          padding: 3px 8px;
+          background-color: #e88484;
+          border-radius: 5.4px;
+          p {
+            font-family: Poppins;
+            font-size: 13px;
+            font-weight: 400;
+            color: #ff0000;
+          }
+        }
     &__title {
       font-family: Poppins;
       font-size: 26px;

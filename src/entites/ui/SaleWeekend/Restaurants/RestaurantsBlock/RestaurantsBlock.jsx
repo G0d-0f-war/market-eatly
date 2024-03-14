@@ -5,15 +5,17 @@ import star from '../../../../../app/assets/img/restaurants/Star.svg';
 function RestaurantsBlock({restaurents, ...props}) {
   
   const supreme = restaurents.category === 'Supreme' ? styles.supreme : '';
-  const health = restaurents.category === 'Health' ? styles.health : '';
+  const health = restaurents.category === 'Healthy' ? styles.health : '';
   const tranding = restaurents.category === 'Tranding' ? styles.tranding: '';
+  const hot = restaurents.category == 'Hot' ? styles.hot : '';
+
   return (
     <div className={styles.block}>
       <div className={styles.image}>
         <img key={restaurents.id} width='395' height='175' src={restaurents.imgUrl} alt="" />
       </div>
       <div className={styles.items}>
-        <div className={`${supreme} ${health} ${tranding}`}>
+        <div className={`${supreme} ${health} ${tranding} ${hot}`}>
           <p>{restaurents.category}</p>
         </div>
         <div className={styles.items__title}>{restaurents.title}</div>

@@ -1,9 +1,7 @@
 import React from 'react';
 import styles from './DishesEnt.module.scss';
-import star from '../../../../app/assets/img/dishes/Star.svg';
-import food from '../../../../app/assets/img/dishes/food.png';
-import AddCartButton from '../../../../features/ui/Navigation/AddCartButton/AddCartButton';
-function DishesEnt({ primal, card, variant }) {
+import { Link } from 'react-router-dom';
+function DishesEnt({ primal, card, variant, buttonViewAll  }) {
   return (
     <div className={styles.dishes}>
       {variant == 1 ? (
@@ -17,9 +15,13 @@ function DishesEnt({ primal, card, variant }) {
               Our Top <span>Dishes</span>
             </div>
 
+
+
+          {buttonViewAll && (
+
             <div className={styles.view}>
               <div className={styles.view__items}>
-                <a href="">View All</a>
+                <Link to='/dishes'>View All</Link>
                 <svg
                   width="19"
                   height="19"
@@ -43,6 +45,10 @@ function DishesEnt({ primal, card, variant }) {
                 </svg>
               </div>
             </div>
+
+          )}
+
+
           </div>
         </div>
       )}
@@ -53,7 +59,7 @@ function DishesEnt({ primal, card, variant }) {
       {variant == 1 ? (
         <div className={styles.view}>
           <div className={styles.view__items}>
-            <a href="">View All</a>
+            <Link to='/dishes'>View All</Link>
             <svg
               width="19"
               height="19"
