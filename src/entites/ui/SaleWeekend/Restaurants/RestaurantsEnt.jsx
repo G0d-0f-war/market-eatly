@@ -1,7 +1,10 @@
 import React from 'react';
 import styles from './RestaurantsEnt.module.scss';
+import { Link } from 'react-router-dom';
 
-function RestaurantsEnt({ children, primal, variant, block, ...props }) {
+function RestaurantsEnt({ children, primal, variant, block,buttonViewAll , ...props }) {
+  
+  const links = {name: 'restaurants', path:'/restaurants'}
   return (
     <div className={styles.restaurants}>
       {variant == 1 ? (
@@ -9,15 +12,17 @@ function RestaurantsEnt({ children, primal, variant, block, ...props }) {
           Our Top <span>Restaurants</span>
         </div>
       ) : (
+        
         <div className={styles.MenuRestaurants}>
           <div className={styles.wrapper1}>
             <div className={styles.primal}>
               Our Top <span>Restaurants</span>
             </div>
 
+          {buttonViewAll  &&  (
             <div className={styles.view}>
               <div className={styles.view__items}>
-                <a href="">View All</a>
+                <Link to={links.path}>View All</Link>
                 <svg
                   width="19"
                   height="19"
@@ -41,6 +46,8 @@ function RestaurantsEnt({ children, primal, variant, block, ...props }) {
                 </svg>
               </div>
             </div>
+          )}
+
           </div>
         </div>
       )}
@@ -48,12 +55,14 @@ function RestaurantsEnt({ children, primal, variant, block, ...props }) {
       <div className={styles.content}>
 
       {block}
-      </div>
 
+
+      </div>
       {variant == 1 ? (
+     
         <div className={styles.view}>
           <div className={styles.view__items}>
-            <a href="">View All</a>
+            <Link to={links.path}>View All</Link>
             <svg
               width="19"
               height="19"
@@ -83,5 +92,4 @@ function RestaurantsEnt({ children, primal, variant, block, ...props }) {
     </div>
   );
 }
-
 export default RestaurantsEnt;

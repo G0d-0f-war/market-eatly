@@ -3,7 +3,7 @@ import RestaurantsEnt from '../../../../entites/ui/SaleWeekend/Restaurants/Resta
 import styles from './Restaurants.module.scss';
 import RestaurantsBlock from '../../../../entites/ui/SaleWeekend/Restaurants/RestaurantsBlock/RestaurantsBlock';
 
-function Restaurants({ primal, variant }) {
+function Restaurants({ primal, variant,viewAll }) {
   const [restaurents,setRestaurents] = useState([]);
 
   useEffect(() => { 
@@ -15,9 +15,14 @@ function Restaurants({ primal, variant }) {
   return (
     <div className="container">
       <RestaurantsEnt block={restaurents.map((items,index) =>  
-       { if(index < 3) { 
-          return <RestaurantsBlock key={items.id} restaurents={items}/>
-        }}
+
+
+        viewAll ? <RestaurantsBlock key={items.id} restaurents={items} />
+
+        : index < 3 ? <RestaurantsBlock key={items.id} restaurents={items} /> 
+        
+        : false
+          
       )} primal={primal} variant={variant} />
       <div className={styles.line}></div>
     </div>

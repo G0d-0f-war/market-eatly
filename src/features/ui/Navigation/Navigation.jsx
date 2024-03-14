@@ -9,7 +9,7 @@ function Navigation(props) {
         <ul className={styles.menu}>
           {links.map((element, i) => (
             <li key={i} className={styles.item}>
-              <Link to={element.path}className={styles.link}>
+              <Link to={element.path} className={styles.link}>
                 {element.name}
               </Link>
             </li>
